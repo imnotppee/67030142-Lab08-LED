@@ -1,0 +1,36 @@
+dependencies:
+  LED_component:
+    component_hash: 8f6b91dff5d16a430694a846af7f911932e85cfe15d85925a8e3fa2bc82ee0e2
+    dependencies: []
+    source:
+      git: https://github.com/imnotppee/67030142-Lab08-LED.git
+      path: .
+      type: git
+    version: 0d07dc6080e0c167a9c1eba5f1dae178925646d3
+  display_component:
+    component_hash: 6500eece0b4276b2491b05da3cfe527d329c75be7d387cc1bbfff46baaeda87b
+    dependencies: []
+    source:
+      git: https://github.com/Chutiporn120846/lab08-67030059-display.git
+      path: .
+      type: git
+    version: d4310826de09c4f1cf2f7b75631eef5b3aaa793c
+  idf:
+    source:
+      type: idf
+    version: 6.0.0
+  sensor_component:
+    component_hash: 0fa07448ab9d4098c7e556e4847d592d3756ec58ea2703908109b477fe3f57d7
+    dependencies: []
+    source:
+      git: https://github.com/Kotchanat/Lab08-67030002.git
+      path: .
+      type: git
+    version: 850c5bcf7e614f6ecfc25a10e2c388bcf71a097a
+direct_dependencies:
+- LED_component
+- display_component
+- sensor_component
+manifest_hash: 71511802f864b2d12eea87e053e8d5fb987269ae1b824ca957e6818f9165a58c
+target: esp32
+version: 2.0.0
